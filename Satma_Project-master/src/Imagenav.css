@@ -1,0 +1,35 @@
+.img_nav{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    margin:50px auto;
+    border-radius:50%;
+    
+
+}
+
+img{
+    height:40px;
+    width:20px;
+}
+.img_sub{   
+    width:auto !important;
+    filter: grayscale(1);
+    border:1px solid #4caf50;
+    height:40px;
+    padding:5px;
+    border-radius: 50%;
+ 
+}
+
+.img_sub:hover{
+    filter: grayscale(0);
+    border-radius:50%;
+    border: 1px solid #4caf50;
+}
+.img1,.img2,.img3,.img4{
+    width: 225px;
+    background-color: white;
+    height:70px;
+    border-radius: 50%;
+}

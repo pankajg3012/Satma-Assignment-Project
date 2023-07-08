@@ -1,0 +1,14 @@
+.bottom_img{
+    width: 605px;
+    height: 544px;
+   box-shadow:1px  0 12px whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    margin:0 auto ;
+
+}
+
+.productmap{
+    width:100%;
+
+}

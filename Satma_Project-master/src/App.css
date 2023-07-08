@@ -1,0 +1,15 @@
+.parent{width:100vw;
+    display: flex;
+    margin-top: 25px;
+}
+.Sub_navbar{
+    display: flex;
+}
+@media (max-width:900px) {
+    .parent{
+        width:100%;
+    }
+    .Sub_navbar{
+        display:flex;
+    }
+}

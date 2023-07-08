@@ -1,0 +1,60 @@
+.Homeimg{
+    width: 88%;
+    height:auto;
+    margin-left:183px;
+}
+.Main_Card_Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 206px;
+}
+
+.card{
+    margin-top: 30px;
+    height:160px;
+    width:385px;
+    border-radius: 12px;
+    border:1.25px solid green;
+  }
+ .card_heading h1{
+  width: 286px;
+  height: 62px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #4caf50;
+    
+    text-align:left;
+    border-radius:12px;
+    margin: 0 auto;
+    padding:0.75rem 3rem;
+    border-bottom: 1.25px solid green;
+  }
+  .card_body p{
+    text-align:center;
+    padding:0.5rem 1rem;
+
+  }
+
+
+
+  .body2_img{
+    margin: 1rem auto;
+    height: 160px;
+  }
+  .Box1{
+    display: flex;
+    justify-content:space-between ;
+    
+  }
+  .Box2{
+    display: flex;
+    justify-content: space-between;
+  }
+.p1{
+    color:#4caf50;
+    line-height:15px;
+    font-size:1.5rem;
+    margin-top:20px;
+  
+}

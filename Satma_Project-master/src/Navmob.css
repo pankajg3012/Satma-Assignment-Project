@@ -1,0 +1,64 @@
+@media (max-width:900px) {
+
+    .container_mob{
+        display: flex;
+        margin:1rem 0 0 -7rem;
+        padding: 0 152px;
+       
+    }
+    
+    .titlediv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:86px;
+        height: 71px;
+        border-radius: 12px;
+        background-color: white;
+        border: 1px solid green;
+        
+    }
+    .titlediv > p{
+        color:black;
+        text-align: center;
+    }
+    
+        .support_text_active{
+        width: 93px;
+        font-size: 0.85rem;
+        padding:0 5%;
+        margin-right: 1rem;
+        border: 1px solid green;
+        position: relative;
+        right: 10px;
+        z-index: -1;
+        border-radius: 0 12px 12px 0;
+        /* animation: 2s showSlowly; */
+    
+        }
+       
+        .paraname_handle{
+            width: 100px;
+            border-radius: 12px;
+            text-align: center;
+            background:#4caf50;
+            height: 71px;
+            color: white;
+            line-height: 18px;
+            font-size: 1rem;
+            font-weight: 600; 
+    
+        }
+        .handleactive{
+            height: 71px;
+            margin: 0 10px;
+        }
+    .Para_subtitle{
+        height: 71px;
+    }
+    .bg-slate-200{
+        text-align: center;
+        line-height: 17px;
+    }
+    
+}

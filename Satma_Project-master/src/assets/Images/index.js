@@ -1,0 +1,1 @@
+import image1 from '../Images/image-1@2x.png';

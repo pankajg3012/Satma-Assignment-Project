@@ -1,0 +1,35 @@
+
+.img_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 832px;
+    position: relative;
+}
+
+.box_images_div{
+    margin:3px 5px;
+    width:380px;
+    height: 250px;
+}
+.anchorpopup{
+    position: absolute;
+    top: 393px;
+    left:579px;
+    color:white;
+}
+
+.box_images_div1{
+    width:200px;
+    height: 150px;   
+}
+.ant-modal-body{
+    display: grid;
+    grid-template-columns: 52% 50%;
+    gap: 10px;
+}
+.ant-modal-title{
+    text-align:center;
+    text-shadow: 1px;
+}
