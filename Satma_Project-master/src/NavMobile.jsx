@@ -24,7 +24,7 @@ function NavMobile() {
     
     return (
         <div>
-            <div className="container_mob sm:flex  h-32 mt-3 md:hidden lg:hidden">
+            <div className="container_mob sm:flex flex  h-32 mt-3 md:hidden lg:hidden">
                 {datamob.map((item) => (
                     <>
                         <div onClick={(e) => handleChange(e)} id={"1"} className="handleactive   flex justify-center cursor-pointer">

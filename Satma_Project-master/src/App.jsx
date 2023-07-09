@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    <div className="parent lg:flex  flex-row  w-full sm:flex  w-full md:flex flex ">
+    <div className="parent lg:flex   w-full sm:flex  w-full md:flex flex ">
     <Sidebar/>
     <div className='Sub_navbar sm:none md:flex lg:flex'>
         <Navbar show={show} setShow={setShow} className='sm:none md:none lg:flex'/>

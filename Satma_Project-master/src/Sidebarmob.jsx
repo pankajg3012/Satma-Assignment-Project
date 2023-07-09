@@ -18,7 +18,7 @@ function Sidebarmob() {
     <img src={hamburgermobile} alt="" className='w-12  h-12 bg-emerald-500' />
 
       </div>
-<Space direction="horizontal" size={10} className='mt-2 mx-auto sm:flex h-32 '>
+<Space direction="horizontal" size={10} className='mt-2 mx-8 sm:flex h-32 '>
          
     <Card className='antcardbody boder border-emerald-500	boder-solid sm:flex'
       style={{
