@@ -1,9 +1,12 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import './Navbar.css'
-import NavMobile from './NavMobile'
+// import NavMobile from './NavMobile'
 
-function Navbar({show,setShow}) {
+
+// eslint-disable-next-line react/prop-types
+function Navbar({setShow}) {
     const [active, setActive] = useState('1');
+    const [isMobile,setIsMobile]=useState(window.innerWidth < 700 ? true : false)
     
    
       const data =  [
@@ -13,31 +16,34 @@ function Navbar({show,setShow}) {
             { id: 4, name: 'Emission Report', subtitle: 'the Images makes transparency in the journey a product travel from getting manufactured to recycle' }
         ]
     
-    const handleChange = (e) => {
-       
+    const handleChange = (e,index) => {
+        
         const val=e.target.innerText.charAt(0).toLowerCase()+ e.target.innerText.substr(1,14).replace(" ","")
         setShow(val);
-        setActive(e.target.id);
+        setActive(index);
+        
         
     }
     
     return (
         <>
-            <div className="container sm:hidden  md:hidden lg:flex ">
-                {data.map((item) => (
+            <div className="container flex ">
+             
+                {data.map((item,index) => (
                     <>
-                        <div onClick={(e) => handleChange(e)} id={"1"} className="handleactive   flex justify-center cursor-pointer">
+                        <div onClick={(e) => handleChange(e,index+1)} id={"1"} className="handleactive   flex justify-center cursor-pointer">
                             <div className={` titlediv ${item.id == active ? "paraname_handle" : " "} `} ><p id={item.id} className=''>{item.name}</p></div>
-                            <div className={` bg-slate-200 ${item.id == active ? "support_text_active" : "hidden"} flex items-center `} >
+                            { !isMobile && <div className={` bg-slate-200 ${item.id == active ? "support_text_active" : "hidden"} flex items-center `} >
                             <p>{item.subtitle}</p>
                              </div>
-                        </div>
+                        }
+                    </div>
                     </>
                 ))}
 
 
             </div>
-            <NavMobile/>
+            {/* <NavMobile/> */}
         </>
       
     
@@ -45,4 +51,4 @@ function Navbar({show,setShow}) {
 }
 
 
-export default Navbar
+export default Navbar;

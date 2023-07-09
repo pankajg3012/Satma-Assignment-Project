@@ -13,9 +13,9 @@ function Sidebarmob() {
  <div className="mobile_sidebar sm:flex w-70 md:flex w-192 flex-col lg:hidden">
 
    
-    <div className="custom-card-title_mob sm:flex ml-9 flex-row ">
+    <div className="custom-card-title_mob sm:flex  flex-row ">
     <img src={satmamobile} alt="" className='w-52' />
-    <img src={hamburgermobile} alt="" className='w-12  h-12 bg-emerald-500' />
+    <img src={hamburgermobile} alt="" className='w-12  h-12 bg-emerald-500 rounded-md p-2' />
 
       </div>
 <Space direction="horizontal" size={10} className='mt-2 mx-auto sm:flex h-32 '>

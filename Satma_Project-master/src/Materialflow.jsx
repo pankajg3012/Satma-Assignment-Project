@@ -5,8 +5,8 @@ import matflowimag from '../src/assets/Images/Flowpipline.gif'
 function Materialflow() {
   return (
     <>
-    <div className="material_parent lg:flex flex-col w-4/5 mx-auto my-0 sm:flex w-auto md:flex w-auto">
-    <div className='material_container '>
+    <div className="material_parent lg:flex flex-col w-4/5 mx-auto my-0 sm:flex w-auto md:flex w-auto mt-10">
+    <div className='material_container  hidden md:block'>
     <div className='para_div'>
     <h1 className='h1_para'>Material Journey:</h1>
     <p className='material_para'>

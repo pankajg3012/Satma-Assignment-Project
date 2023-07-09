@@ -1,4 +1,4 @@
-@media (min-width:767px) {
+
     .container{
         display: flex;
         margin:0 0 0 2rem;
@@ -10,11 +10,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width:86px;
+        width:140px;
         height: 71px;
         border-radius: 12px;
         background-color: white;
         border: 1px solid green;
+        padding: 0 1rem;
         
     }
     .titlediv > p{
@@ -60,11 +61,22 @@
         line-height: 17px;
         width:218px;
     }
-}
 
-@media (max-width:900px) {
+
+@media only screen and (max-width:500px) {
     .container{
-    display: none;
+    margin-top: 18px;
+    overflow: scroll;
     }
+    .paraname_handle{
+        width: 218px;
+       }
+
+    
+    
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
     
 }

@@ -4,6 +4,7 @@
     width:50%;
     margin:50px auto;
     border-radius:50%;
+    position: relative;
     
 
 }
@@ -13,12 +14,13 @@ img{
     width:20px;
 }
 .img_sub{   
-    width:auto !important;
+    width:45px;
     filter: grayscale(1);
     border:1px solid #4caf50;
     height:40px;
-    padding:5px;
+    padding:8px;
     border-radius: 50%;
+    background-color: white;
  
 }
 
@@ -26,10 +28,23 @@ img{
     filter: grayscale(0);
     border-radius:50%;
     border: 1px solid #4caf50;
+    
 }
 .img1,.img2,.img3,.img4{
-    width: 225px;
-    background-color: white;
+    width: fit-content;
     height:70px;
-    border-radius: 50%;
+    
+}
+.dotted_border{
+    border: 2px dotted grey;
+    position: absolute;
+    width: 75%;
+    top: 25%;
+    z-index: -1;
+}
+@media only screen and (max-width: 768px){ 
+    .img_nav{
+        width: 92% !important;
+    }
+    
 }

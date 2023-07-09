@@ -5,14 +5,13 @@ import img1 from '../src/assets/Images/transportweb.png';
 import img2 from '../src/assets/Images/Sackweb.png';
 import img3 from '../src/assets/Images/recieptweb.png';
 import  img4 from '../src/assets/Images/machine.png'
-import Imagesnavbar from './Imagesnavbar';
+
 
 
 function Images() {
     const [showModal, setShowModal]=useState(false);
   return (
     <>
-   <Imagesnavbar/>
    <div className="image_compo_contain sm:flex md:flex lg:flex mt-10">
 
     <div className='img_box lg:border-2 border-slate-700 rounded-lg width-full mx-auto my-0 '>

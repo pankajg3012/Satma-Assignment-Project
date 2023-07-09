@@ -1,13 +1,13 @@
 .Homeimg{
     width: 88%;
     height:auto;
-    margin-left:183px;
+    
 }
 .Main_Card_Container{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 206px;
+  
 }
 
 .card{
