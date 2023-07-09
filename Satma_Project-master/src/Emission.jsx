@@ -7,14 +7,14 @@ function Emission() {
   return (
     <>
 
-      <div className="emission_container  sm:flex flex-col w-4/5  md:flex lg:flex w-4/5">
+      <div className="emission_container  sm:flex flex-col w-4/5  md:flex lg:flex w-4/5 mt-12">
         <img src={HomeImage} alt="Emission_home_image" className='Homeimg' />
 
-        <div className="Main_Card_Container sm:flex flex-col w-4/5 lg:flex my-2 ml-52 gap-x-2	">
+        <div className="Main_Card_Container sm:flex flex-col w-4/5 lg:flex my-2 ml-5 gap-x-2	">
 
 
 
-          <div className='Box1 sm:flex  md:flex lg:flex flex-row '>
+          <div className='Box1 sm:flex  md:flex lg:flex md:flex-row  flex-col'>
 
             <div className="card sm:w-72 h-32 lg:flex flex-col w-72 h-32 ">
               <div className="card_heading">
@@ -36,7 +36,7 @@ function Emission() {
           </div>
 
 
-          <div className='Box2 sm:flex  md:flex lg:flex flex-row'>
+          <div className='Box2 sm:flex  md:flex lg:flex md:flex-row flex-col'>
             <div className="card sm:W-72 h-32 lg:flex flex-col w-72 h-32">
               <div className="card_heading">
                 <h1> Total Waste Used</h1>

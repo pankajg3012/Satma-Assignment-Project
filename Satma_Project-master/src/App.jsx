@@ -12,18 +12,18 @@ import Navbar from './Navbar'
 
 function App() {
   
-  const [show,setShow]=useState('');
+  const [show,setShow]=useState('productJourney');
   
  
 
   return (
     <>
-    <div className="parent lg:flex  flex-row  w-full sm:flex  w-full md:flex flex ">
+    <div className="parent lg:flex  md:flex-row flex-col   w-full sm:flex  w-full md:flex flex ">
     <Sidebar/>
-    <div className='Sub_navbar sm:none md:flex lg:flex'>
-        <Navbar show={show} setShow={setShow} className='sm:none md:none lg:flex'/>
-        {["productJourney","materialFlow","emissionReport"].includes(show) && <Imagesnavbar/> }
-         {show=="productJourney" && <Product/>} 
+    <div className='Sub_navbar flex items-center flex-col'>
+        <Navbar show={show} setShow={setShow}/>
+        {["productJourney","images"].includes(show) && <Imagesnavbar/> }
+        {show=="productJourney" && <Product/>} 
         {show=="materialFlow" && <Materialflow/>}
         {show=="images" && <Images/> }
         {show=="emissionReport" && <Emission/>}
